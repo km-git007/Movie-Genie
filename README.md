@@ -36,15 +36,15 @@ It leverages **Google Gemini AI** to process queries like:
 
 ## ✨ Core Features  
 
-✔ **AI-Powered Movie Search** – Get recommendations based on **mood, actors, themes, or specific descriptions** using **Google Gemini AI**.  
-✔ **Real-Time Data Fetching** – Instant movie information via **React Query** and **Infinite Scroll**.  
-✔ **Deep Movie Insights** – View trailers, cast details, streaming platforms, IMDb & Wikipedia links.  
-✔ **Advanced Filtering** – Sort by **release year, genre, IMDb rating, box office earnings, and more**.  
-✔ **High-Performance Caching** – **Redis caching** improves query speed by **70%**.  
-✔ **Secure API Calls** – Axios ensures safe and reliable data retrieval.  
-✔ **Modern UI** – Built with **Tailwind CSS** for a sleek and responsive interface.  
-✔ **Rate Limiting** – **Bucket4j** prevents API overuse and abuse.  
-
+✔ **AI-Powered Movie Search** – Get recommendations based on mood, actors, themes, or specific descriptions using **Google Gemini AI**.
+✔ **Real-Time Data Fetching** – Instant movie information via **React Query and Infinite Scroll**.
+✔ **Deep Movie Insights** – View **trailers, cast details, streaming platforms, IMDb & Wikipedia links**.
+✔ **Advanced Filtering** – Sort by **release year, genre, IMDb rating, box office earnings, and more**.
+✔ **Secure API Calls** – **Axios** ensures safe and reliable data retrieval.
+✔ **Modern UI** – Built with **Tailwind CSS** for a sleek and responsive interface.
+✔ **Rate Limiting** – **Bucket4j** prevents API overuse and abuse.
+✔ **High-Performance Caching** – **Redis caching** improves query speed by **70%**.
+✔ **Spring Boot & Spring Data JPA** – Used for backend development and efficient database management.
 ---
 
 ## 🔥 Key Functionalities
