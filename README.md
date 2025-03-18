@@ -133,8 +133,8 @@ Ensure you have **Node.js (v18+)** installed.
 Create a `.env` file in both **backend** and **frontend** folders with the required API keys and configuration settings.
 
 ## 🚀 Deployment
-- **Frontend**: Deployed on **Vercel/Netlify**
-- **Backend**: Deployed on **Render/DigitalOcean**
+- **Frontend**: Deployed on **Vercel**
+- **Backend**: Deployed on **Render**
 
 ## 🤝 Contributing
 We welcome contributions! If you’d like to contribute:
