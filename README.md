@@ -1,104 +1,67 @@
-# 🎬 MovieGenie - AI-Powered Movie Recommendation System
+# 🎬 MovieGenie - AI-Powered Movie Recommendation System  
 
-![MovieGenie Banner](your-image-url-here)
+## 📸 Stunning UI Preview  
 
-## 📌 Table of Contents
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Tech Stack](#-tech-stack)
-- [Screenshots](#-screenshots)
-- [Installation & Setup](#-installation--setup)
-- [Deployment](#-deployment)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
+| **AI-Powered Search** | **Detailed Movie Insights** | **Smart Search Results** | **Cast & Actor Profiles** |
+|-----------------------|---------------------------|-------------------------|--------------------------|
+| ![MovieGenie Banner](https://github.com/user-attachments/assets/84bf1f55-fcbb-4cde-80e6-b7d84fe6cff4)   | ![Movie Details](https://github.com/user-attachments/assets/30afb6c4-d8c7-4e60-92ec-81a3d257ba59) | ![Search Results](https://github.com/user-attachments/assets/9a45614d-1589-4b22-874a-7543aa5e3f6f) | ![Cast Details](https://github.com/user-attachments/assets/0b51b8ae-e957-4e51-b2fb-1e5fecccd09a) |
 
-## 🚀 Overview
-**MovieGenie** is an AI-driven movie recommendation system designed to help users discover movies effortlessly. By leveraging **Google Gemini AI**, it provides highly personalized movie suggestions based on **natural language prompts, moods, plot descriptions, and scene-based queries**.
+---
+## 🚀 AI-Powered Search (The Heart of MovieGenie)
+![AI Search](https://github.com/user-attachments/assets/c2c440d4-c5a6-4dca-a344-088128cc9086)
+---
 
-## ✨ Key Features
-✅ **AI-Powered Recommendations** - Get movie suggestions based on textual descriptions, moods, or themes using **Google Gemini AI**.  
-✅ **Real-Time Data Fetching** - Optimized performance with **React Query** and **Infinite Scroll** for a seamless user experience.  
-✅ **Advanced Filtering** - Filter movies by **date, cast, language, genre, IMDb score, earnings, and awards**.  
-✅ **High Performance** - **Redis caching** reduces query latency by **70%**, ensuring fast responses.  
-✅ **Rate Limiting** - **Bucket4j** prevents API abuse by implementing request rate limits.  
-✅ **Modern UI** - A clean, intuitive interface designed with **Tailwind CSS**.  
-✅ **Seamless Navigation** - Built with **React Router** for smooth transitions.  
-✅ **Secure API Calls** - Managed through **Axios** to handle data retrieval safely.  
+## 📌 Table of Contents  
 
-## 🛠️ Tech Stack
+- [Overview](#-overview)  
+- [Core Features](#-core-features)  
+- [Tech Stack](#-tech-stack)  
+- [Key Functionalities](#-key-functionalities)  
+  - [1️⃣ AI-Powered Search (The Heart of MovieGenie)](#1️⃣-ai-powered-search-the-heart-of-moviegenie)  
+  - [2️⃣ Movie Details Page](#2️⃣-movie-details-page)  
+  - [3️⃣ Cast & Actor Details](#3️⃣-cast--actor-details)  
+- [Installation & Setup](#-installation--setup)  
+- [Deployment](#-deployment)  
+- [Contributing](#-contributing)  
+- [License](#-license)  
+- [Contact](#-contact)  
 
-### 🔹 **Frontend (React)**
-- **React 18** - Component-based UI architecture.
-- **Redux Toolkit** - Efficient global state management.
-- **React Query** - Advanced asynchronous data fetching.
-- **React Infinite Scroll Component** - Seamless infinite scrolling.
-- **React Router** - Dynamic navigation & routing.
-- **React Player** - Embedded movie trailer support.
-- **Tailwind CSS** - Modern, responsive UI styling.
-- **Axios** - API request handling.
+---
 
-### 🔹 **Backend (Spring Boot)**
-- **Spring AI** - AI-driven recommendation engine.
-- **Spring Boot** - Java-based backend framework.
-- **Redis** - High-speed caching for optimal performance.
-- **Bucket4j** - API rate limiting to prevent abuse.
-- **Google Gemini API** - AI-powered movie recommendations.
+## 🚀 Overview  
 
-### 🔹 **Development Tools**
-- **Vite** - Lightning-fast frontend build tool.
-- **ESLint & Prettier** - Code linting & formatting for better maintainability.
-- **PostCSS & Autoprefixer** - CSS optimization for better cross-browser support.
+**MovieGenie** is an AI-powered movie recommendation platform that **understands natural language prompts** to suggest movies tailored to your preferences. Whether you're in the mood for a **thrilling heist film**, a **heartfelt romantic drama**, or a **sci-fi adventure with time travel**, MovieGenie has got you covered.  
 
-## 🖼️ Screenshots
-| Home Page | Movie Details | Search Results |
-|-----------|--------------|----------------|
-| ![Home](your-image-url-here) | ![Details](your-image-url-here) | ![Search](your-image-url-here) |
+It leverages **Google Gemini AI** to process queries like:  
+> _"Show me a mind-bending thriller like Inception."_  
+> _"Recommend a feel-good comedy from the 90s."_  
+> _"Find movies featuring Leonardo DiCaprio and based on real-life events."_  
 
-## 🏗️ Installation & Setup
+---
 
-### 🔹 1️⃣ Clone the Repository
-```sh
- git clone https://github.com/your-username/moviegenie.git
- cd moviegenie
-```
+## ✨ Core Features  
 
-### 🔹 2️⃣ Backend Setup (Spring Boot)
-Ensure you have **Java 17+** and **Maven** installed.
-```sh
- cd backend
- mvn clean install
- mvn spring-boot:run
-```
+✔ **AI-Powered Movie Search** – Get recommendations based on **mood, actors, themes, or specific descriptions** using **Google Gemini AI**.  
+✔ **Real-Time Data Fetching** – Instant movie information via **React Query** and **Infinite Scroll**.  
+✔ **Deep Movie Insights** – View trailers, cast details, streaming platforms, IMDb & Wikipedia links.  
+✔ **Advanced Filtering** – Sort by **release year, genre, IMDb rating, box office earnings, and more**.  
+✔ **High-Performance Caching** – **Redis caching** improves query speed by **70%**.  
+✔ **Secure API Calls** – Axios ensures safe and reliable data retrieval.  
+✔ **Modern UI** – Built with **Tailwind CSS** for a sleek and responsive interface.  
+✔ **Rate Limiting** – **Bucket4j** prevents API overuse and abuse.  
 
-### 🔹 3️⃣ Frontend Setup (React)
-Ensure you have **Node.js (v18+)** installed.
-```sh
- cd frontend
- npm install
- npm run dev
-```
+---
 
-### 🔹 4️⃣ Environment Variables
-Create a `.env` file in both **backend** and **frontend** folders with the required API keys and configuration settings.
+## 🤟 Contributing  
+We welcome contributions! If you’d like to contribute:  
+1. Fork the repository.  
+2. Create a feature branch (`git checkout -b feature-branch`).  
+3. Commit your changes (`git commit -m "Add new feature"`).  
+4. Push to the branch (`git push origin feature-branch`).  
+5. Open a pull request.  
 
-## 🚀 Deployment
-- **Frontend**: Deployed on **Vercel/Netlify**
-- **Backend**: Deployed on **Render/DigitalOcean**
-
-## 🤝 Contributing
-We welcome contributions! If you’d like to contribute:
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m "Add new feature"`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
-
-## 📜 License
-This project is licensed under the **MIT License** © 2025 **Your Name**.
+---
 
 ## 📩 Contact
-- 🌐 [Your Portfolio](your-portfolio-url)
-- 🐦 Twitter: [@your-handle](https://twitter.com/your-handle)
-- 📧 Email: your-email@example.com
-
+- 🔗 [LinkedIn](https://www.linkedin.com/in/kaustavmishra)
+- 📧 Email: mishrakaustav10@gmail.com
