@@ -1,4 +1,13 @@
-# 🎬 MovieGenie - AI-Powered Movie Recommendation System  
+# 🎬 MovieGenie - AI-Powered Movie Recommendation System 
+
+## 🚀 Overview  
+
+**MovieGenie** is an AI-powered movie recommendation platform that **understands natural language prompts** to suggest movies tailored to your preferences. Whether you're in the mood for a **thrilling heist film**, a **heartfelt romantic drama**, or a **sci-fi adventure with time travel**, MovieGenie has got you covered.
+
+It leverages **Google Gemini AI** to process queries like:  
+> _"Show me a mind-bending thriller like Inception."_  
+> _"Movie in which an astronaut gets left behind at Mars and he's rescued back to Earth."_  
+> _"I dont feel good today. Suggest me a moodlifting rom-com movie from the 90s."_
 
 ## 📸 Stunning UI Preview  
 
@@ -10,7 +19,6 @@
 
 ## 📌 Table of Contents  
 
-- [Overview](#🚀-overview)  
 - [Core Features](#✨-core-features)  
 - [Key Functionalities](#🔥-key-functionalities)  
   - [1️⃣ AI-Powered Search (The Heart of MovieGenie)](#1️⃣-ai-powered-search-the-heart-of-moviegenie)  
@@ -21,17 +29,6 @@
 - [Deployment](#🚀-deployment)  
 - [Contributing](#🤝-contributing)  
 - [Contact](#📩-contact)  
----
-
-## 🚀 Overview  
-
-**MovieGenie** is an AI-powered movie recommendation platform that **understands natural language prompts** to suggest movies tailored to your preferences. Whether you're in the mood for a **thrilling heist film**, a **heartfelt romantic drama**, or a **sci-fi adventure with time travel**, MovieGenie has got you covered.  
-
-It leverages **Google Gemini AI** to process queries like:  
-> _"Show me a mind-bending thriller like Inception."_  
-> _"Recommend a feel-good comedy from the 90s."_  
-> _"Find movies featuring Leonardo DiCaprio and based on real-life events."_  
-
 ---
 
 ## ✨ Core Features  
