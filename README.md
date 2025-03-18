@@ -10,15 +10,17 @@
 
 ## 📌 Table of Contents  
 
-## 📌 Table of Contents
-- [Overview](#overview)
-- [Key Functionalities](#key-functionalities)
-- [Tech Stack](#tech-stack)
-- [Screenshots](#screenshots)
-- [Installation & Setup](#installation--setup)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- [Overview](#🚀-overview)  
+- [Core Features](#✨-core-features)  
+- [Key Functionalities](#🔥-key-functionalities)  
+  - [1️⃣ AI-Powered Search (The Heart of MovieGenie)](#1️⃣-ai-powered-search-the-heart-of-moviegenie)  
+  - [2️⃣ Movie Details Page](#2️⃣-movie-details-page)  
+  - [3️⃣ Cast & Actor Details](#3️⃣-cast--actor-details)
+- [Tech Stack](#🛠️-tech-stack)  
+- [Installation & Setup](#🏗️-installation--setup)  
+- [Deployment](#🚀-deployment)  
+- [Contributing](#🤝-contributing)  
+- [Contact](#📩-contact)  
 ---
 
 ## 🚀 Overview  
@@ -140,6 +142,9 @@ We welcome contributions! If you’d like to contribute:
 3. Commit your changes (`git commit -m "Add new feature"`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
+
+## 📜 License
+This project is licensed under the **MIT License** © 2025 **Your Name**.
 
 ## 📩 Contact
 - 🔗 [LinkedIn](https://www.linkedin.com/in/kaustavmishra)
