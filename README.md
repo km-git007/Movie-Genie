@@ -10,19 +10,17 @@
 
 ## 📌 Table of Contents  
 
-- [Overview](#-overview)  
-- [Core Features](#-core-features)  
-- [Key Functionalities](#-key-functionalities)  
+- [Overview](#🚀-overview)  
+- [Core Features](#✨-core-features)  
+- [Key Functionalities](#🔥-key-functionalities)  
   - [1️⃣ AI-Powered Search (The Heart of MovieGenie)](#1️⃣-ai-powered-search-the-heart-of-moviegenie)  
   - [2️⃣ Movie Details Page](#2️⃣-movie-details-page)  
   - [3️⃣ Cast & Actor Details](#3️⃣-cast--actor-details)
-- [Tech Stack](#-tech-stack)  
-- [Installation & Setup](#-installation--setup)  
-- [Deployment](#-deployment)  
-- [Contributing](#-contributing)  
-- [License](#-license)  
-- [Contact](#-contact)  
-
+- [Tech Stack](#🛠️-tech-stack)  
+- [Installation & Setup](#🏗️-installation--setup)  
+- [Deployment](#🚀-deployment)  
+- [Contributing](#🤝-contributing)  
+- [Contact](#📩-contact)  
 ---
 
 ## 🚀 Overview  
