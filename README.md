@@ -36,15 +36,16 @@ It leverages **Google Gemini AI** to process queries like:
 
 ## ✨ Core Features  
 
-✔ **AI-Powered Movie Search** – Get recommendations based on mood, actors, themes, or specific descriptions using **Google Gemini AI**.
-✔ **Real-Time Data Fetching** – Instant movie information via **React Query and Infinite Scroll**.
-✔ **Deep Movie Insights** – View **trailers, cast details, streaming platforms, IMDb & Wikipedia links**.
-✔ **Advanced Filtering** – Sort by **release year, genre, IMDb rating, box office earnings, and more**.
-✔ **Secure API Calls** – **Axios** ensures safe and reliable data retrieval.
-✔ **Modern UI** – Built with **Tailwind CSS** for a sleek and responsive interface.
+✔ **AI-Powered Movie Search** – Get recommendations based on **mood, actors, themes, or specific descriptions** using **Google Gemini AI**.  
+✔ **Real-Time Data Fetching** – Instant movie information via **React Query** and **Infinite Scroll**.  
+✔ **Deep Movie Insights** – View trailers, cast details, streaming platforms, IMDb & Wikipedia links.  
+✔ **Advanced Filtering** – Sort by **release year, genre, IMDb rating, box office earnings, and more**.  
+✔ **High-Performance Caching** – **Redis caching** improves query speed by **70%**.  
+✔ **Secure API Calls** – Axios ensures safe and reliable data retrieval.  
+✔ **Modern UI** – Built with **Tailwind CSS** for a sleek and responsive interface.  
+✔ **Spring Boot** & **Spring Data JPA** – Used for backend development and efficient database management.  
 ✔ **Rate Limiting** – **Bucket4j** prevents API overuse and abuse.
-✔ **High-Performance Caching** – **Redis caching** improves query speed by **70%**.
-✔ **Spring Boot & Spring Data JPA** – Used for backend development and efficient database management.
+
 ---
 
 ## 🔥 Key Functionalities
@@ -142,9 +143,6 @@ We welcome contributions! If you’d like to contribute:
 3. Commit your changes (`git commit -m "Add new feature"`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
-
-## 📜 License
-This project is licensed under the **MIT License** © 2025 **Your Name**.
 
 ## 📩 Contact
 - 🔗 [LinkedIn](https://www.linkedin.com/in/kaustavmishra)
