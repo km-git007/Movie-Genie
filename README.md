@@ -15,21 +15,6 @@ It leverages **Google Gemini AI** to process queries like:
 |-----------------------|---------------------------|-------------------------|--------------------------|
 | ![MovieGenie Banner](https://github.com/user-attachments/assets/84bf1f55-fcbb-4cde-80e6-b7d84fe6cff4)   | ![Movie Details](https://github.com/user-attachments/assets/30afb6c4-d8c7-4e60-92ec-81a3d257ba59) | ![Search Results](https://github.com/user-attachments/assets/9a45614d-1589-4b22-874a-7543aa5e3f6f) | ![Cast Details](https://github.com/user-attachments/assets/0b51b8ae-e957-4e51-b2fb-1e5fecccd09a) |
 
----
-
-## 📌 Table of Contents  
-
-- [Core Features](#✨-core-features)  
-- [Key Functionalities](#🔥-key-functionalities)  
-  - [1️⃣ AI-Powered Search (The Heart of MovieGenie)](#1️⃣-ai-powered-search-the-heart-of-moviegenie)  
-  - [2️⃣ Movie Details Page](#2️⃣-movie-details-page)  
-  - [3️⃣ Cast & Actor Details](#3️⃣-cast--actor-details)
-- [Tech Stack](#🛠️-tech-stack)  
-- [Installation & Setup](#🏗️-installation--setup)  
-- [Deployment](#🚀-deployment)  
-- [Contributing](#🤝-contributing)  
-- [Contact](#📩-contact)  
----
 
 ## ✨ Core Features  
 
@@ -43,7 +28,6 @@ It leverages **Google Gemini AI** to process queries like:
 ✔ **Spring Boot** & **Spring Data JPA** – Used for backend development and efficient database management.  
 ✔ **Rate Limiting** – **Bucket4j** prevents API overuse and abuse.
 
----
 
 ## 🔥 Key Functionalities
 
@@ -82,7 +66,6 @@ The **Cast Details Page** helps users explore actors and their filmography in de
 💡 **Example Use Case:**
 You’re watching **Interstellar** and find **Matthew McConaughey’s** performance impressive. Simply click on his name to see all his movies, including **Dallas Buyers Club, True Detective, and The Wolf of Wall Street**.
 
----
 ## 🛠️ Tech Stack
 
 ### 🔹 **Frontend (React)**
@@ -101,7 +84,6 @@ You’re watching **Interstellar** and find **Matthew McConaughey’s** performa
 - **Bucket4j** - API rate limiting.
 - **Google Gemini API** - AI-powered movie analysis.
 
----
 ## 🏗️ Installation & Setup
 
 ### 🔹 1️⃣ Clone the Repository
