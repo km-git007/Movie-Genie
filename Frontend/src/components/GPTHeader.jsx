@@ -38,7 +38,7 @@ const GPTHeader = ({ onButtonClick }) => {
    const searchText = useRef(null);
 
    return (
-      <div className="relative w-full px-7">
+      <div className="relative w-full px-9">
          {/* Back Button (Pinned to the top left) */}
          <Link to="/" className="absolute top-5 left-7">
             <h1 className="text-2xl font-semibold text-zinc-400 cursor-pointer hover:text-[#6556CD] hover:scale-[103%] transition-all duration-200 active:scale-[100%]">
@@ -51,7 +51,7 @@ const GPTHeader = ({ onButtonClick }) => {
             <input
                ref={searchText}
                type="text"
-               className="h-32 w-[70%] text-white pl-4 py-2 rounded-md bg-[#312f39] text-2xl"
+               className="h-32 w-[70%] text-white pl-6 py-2 rounded-md bg-[#312f39] text-2xl"
                placeholder="Search anything you want to watch based on plot, movie casts etc."
             />
             <i
