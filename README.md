@@ -84,44 +84,9 @@ You’re watching **Interstellar** and find **Matthew McConaughey’s** performa
 - **Bucket4j** - API rate limiting.
 - **Google Gemini API** - AI-powered movie analysis.
 
-## 🏗️ Installation & Setup
-
-### 🔹 1️⃣ Clone the Repository
-```sh
- git clone https://github.com/your-username/moviegenie.git
- cd moviegenie
-```
-
-### 🔹 2️⃣ Backend Setup (Spring Boot)
-Ensure you have **Java 17+** and **Maven** installed.
-```sh
- cd backend
- mvn clean install
- mvn spring-boot:run
-```
-
-### 🔹 3️⃣ Frontend Setup (React)
-Ensure you have **Node.js (v18+)** installed.
-```sh
- cd frontend
- npm install
- npm run dev
-```
-
-### 🔹 4️⃣ Environment Variables
-Create a `.env` file in both **backend** and **frontend** folders with the required API keys and configuration settings.
-
 ## 🚀 Deployment
 - **Frontend**: Deployed on **Vercel**
 - **Backend**: Deployed on **Render**
-
-## 🤝 Contributing
-We welcome contributions! If you’d like to contribute:
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m "Add new feature"`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
 
 ## 📩 Contact
 - 🔗 [LinkedIn](https://www.linkedin.com/in/kaustavmishra)
